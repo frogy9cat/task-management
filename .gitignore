@@ -1,0 +1,139 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+var/
+*.manifest
+.installed.cfg
+*.egg-info/
+*.eggs/
+Pipfile
+Pipfile.lock
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.static/
+.env
+
+# Django REST Framework
+*.html
+*.json
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+*.cover
+.cache/
+junit-xml/
+junit-xml.tmp
+.cache
+
+# Distribution / packaging
+.Python
+*.manifest
+.installed.cfg
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
+
+# mypy
+.mypy_cache/
+
+# SQLAlchemy
+alembic/
+migrations/
+
+# Flask-specific files
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Translations
+*.mo
+*.pot
+
+# Docker
+docker-compose*.yaml
+.env
+Dockerfile
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+*.out
+*.err
+
+# Coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
